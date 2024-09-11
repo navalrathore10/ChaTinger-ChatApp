@@ -1,0 +1,134 @@
+{
+  "friends": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "image": "https://randomuser.me/api/portraits/men/75.jpg",
+      "pinned": true,
+      "active":true,
+      "colorTheme": "#FF5733",
+      "messages": [
+        { "id": 1, "content": "Hey, how's it going Naval?", "timestamp": "09:30 AM", "from": "John Doe" },
+        { "id": 2, "content": "I was just thinking about you!", "timestamp": "09:32 AM", "from": "John Doe" },
+        { "id": 3, "content": "Are we still on for the weekend?", "timestamp": "09:35 AM", "from": "John Doe" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "image": "https://randomuser.me/api/portraits/women/4.jpg",
+      "pinned": false,
+      "active":false,
+      "colorTheme": "#33FFBD",
+      "messages": [
+        { "id": 1, "content": "Hello Naval! What's up?", "timestamp": "11:00 AM", "from": "Jane Smith" },
+        { "id": 2, "content": "Are you coming to the meeting?", "timestamp": "11:05 AM", "from": "Jane Smith" },
+        { "id": 3, "content": "Don't forget to bring the report.", "timestamp": "11:10 AM", "from": "Jane Smith" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "image": "https://randomuser.me/api/portraits/men/43.jpg",
+      "pinned": true,
+      "active":true,
+      "colorTheme": "#339BFF",
+      "messages": [
+        { "id": 1, "content": "Good morning Naval!", "timestamp": "08:15 AM", "from": "Michael Johnson" },
+        { "id": 2, "content": "Want to grab coffee?", "timestamp": "08:20 AM", "from": "Michael Johnson" },
+        { "id": 3, "content": "How's your project going?", "timestamp": "08:25 AM", "from": "Michael Johnson" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "image": "https://randomuser.me/api/portraits/women/72.jpg",
+      "pinned": false,
+      "active":false,
+      "colorTheme": "#FF33A8",
+      "messages": [
+        { "id": 1, "content": "Hey Naval, did you finish the project?", "timestamp": "01:45 PM", "from": "Emily Davis" },
+        { "id": 2, "content": "Let me know if you need any help.", "timestamp": "01:47 PM", "from": "Emily Davis" },
+        { "id": 3, "content": "I’m so excited for the weekend!", "timestamp": "01:50 PM", "from": "Emily Davis" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "David Wilson",
+      "image": "https://randomuser.me/api/portraits/men/3.jpg",
+      "pinned": true,
+      "active":true,
+      "colorTheme": "#FF8C33",
+      "messages": [
+        { "id": 1, "content": "What are your weekend plans, Naval?", "timestamp": "04:00 PM", "from": "David Wilson" },
+        { "id": 2, "content": "We should catch up!", "timestamp": "04:05 PM", "from": "David Wilson" },
+        { "id": 3, "content": "Let’s play some football!", "timestamp": "04:10 PM", "from": "David Wilson" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sophia Martinez",
+      "image": "https://randomuser.me/api/portraits/women/32.jpg",
+      "pinned": false,
+      "active":false,
+      "colorTheme": "#33FF57",
+      "messages": [
+        { "id": 1, "content": "Are you free tomorrow, Naval?", "timestamp": "10:00 AM", "from": "Sophia Martinez" },
+        { "id": 2, "content": "I have some exciting news!", "timestamp": "10:10 AM", "from": "Sophia Martinez" },
+        { "id": 3, "content": "Let’s catch up over lunch?", "timestamp": "10:15 AM", "from": "Sophia Martinez" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "James Brown",
+      "image": "https://randomuser.me/api/portraits/men/13.jpg",
+      "pinned": false,
+      "active":true,
+      "colorTheme": "#6A33FF",
+      "messages": [
+        { "id": 1, "content": "Long time no see Naval!", "timestamp": "03:15 PM", "from": "James Brown" },
+        { "id": 2, "content": "Let's meet up soon.", "timestamp": "03:17 PM", "from": "James Brown" },
+        { "id": 3, "content": "How’s life treating you?", "timestamp": "03:20 PM", "from": "James Brown" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Olivia Garcia",
+      "image": "https://randomuser.me/api/portraits/women/63.jpg",
+      "pinned": false,
+      "active":false,
+      "colorTheme": "#FF9F33",
+      "messages": [
+        { "id": 1, "content": "Did you check out the new movie, Naval?", "timestamp": "07:45 PM", "from": "Olivia Garcia" },
+        { "id": 2, "content": "We should go watch it together!", "timestamp": "07:50 PM", "from": "Olivia Garcia" },
+        { "id": 3, "content": "Let me know when you're free.", "timestamp": "07:55 PM", "from": "Olivia Garcia" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Liam Anderson",
+      "image": "https://randomuser.me/api/portraits/men/19.jpg",
+      "pinned": true,
+      "active":true,
+      "colorTheme": "#33FFD7",
+      "messages": [
+        { "id": 1, "content": "Can you send me the report, Naval?", "timestamp": "02:30 PM", "from": "Liam Anderson" },
+        { "id": 2, "content": "Thanks a lot!", "timestamp": "02:32 PM", "from": "Liam Anderson" },
+        { "id": 3, "content": "Are you free later to discuss it?", "timestamp": "02:35 PM", "from": "Liam Anderson" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Ava Thompson",
+      "image": "https://randomuser.me/api/portraits/women/22.jpg",
+      "pinned": false,
+      "active":false,
+      "colorTheme": "#FF33CC",
+      "messages": [
+        { "id": 1, "content": "Are you available for a call Naval?", "timestamp": "05:00 PM", "from": "Ava Thompson" },
+        { "id": 2, "content": "Let's discuss the new proposal.", "timestamp": "05:05 PM", "from": "Ava Thompson" },
+        { "id": 3, "content": "Looking forward to your thoughts!", "timestamp": "05:10 PM", "from": "Ava Thompson" }
+      ]
+    }
+  ]
+}
