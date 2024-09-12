@@ -9,7 +9,7 @@ const FriendsList = ({ onSelectFriend }) => {
     const [searchTerm, setSearchTerm] = useState('');
 
     useEffect(() => {
-        fetch('../src/api/friends.json')
+        fetch('./src/api/friends.json')
             .then(response => response.json())
             .then(data => setFriends(data.friends))
             .catch(error => console.error('Error fetching friends:', error));
