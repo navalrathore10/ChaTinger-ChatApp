@@ -18,7 +18,7 @@ function Sidebar({ showHome }) {
     return (
         <>
             <div className={`sidebar fixed bottom-0 left-0 w-[100vw] h-[90px] rounded-0
-                 lg:relative lg:max-w-[80px] z-10 p-5 lg:h-full lg:rounded-2xl border border-black
+                 lg:relative lg:max-w-[80px] z-10 p-5 lg:h-full lg:rounded-2xl border
                  flex lg:flex-col justify-between items-center 
             ${theme ? 'bg-lighte3' : 'bg-dark24'}`}>
                 <div className="logo">

@@ -8,7 +8,8 @@ const ThemePasser = () => {
 
     return (
         <>
-            <div className={`w-full h-screen lg:p-7 flex justify-between items-center gap-2 bg-transparent ${theme ? 'bg-dark14' : 'bg-lighte3'}`}>
+            <div className={`w-full h-screen lg:p-7 flex justify-between items-center gap-2
+            ${theme ? 'bg-dark14' : 'bg-lighte3'}`}>
                 <Sidebar theme={theme} toggleTheme={toggleTheme} />
                 <ChatApp />
             </div>

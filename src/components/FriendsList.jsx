@@ -29,7 +29,7 @@ const FriendsList = ({ onSelectFriend }) => {
     };
 
     return (
-        <div className="flex flex-col w-full h-[calc(100vh-96px)] lg:h-[calc(100vh-56px)] gap-2 rounded-2xl px-2 pt-2">
+        <div className="flex flex-col w-full h-[calc(100vh-96px)] lg:h-[calc(100vh-56px)] gap-2 rounded-2xl px-2 lg:px-0 pt-2 lg:pt-0">
             {/* Header with title, search box, and button */}
             <div className={`flex h-[10%] items-center rounded-2xl py-4 px-2 shadow-lg  
                 ${theme ? 'bg-dark24 text-lighte3 shadow-black' : 'bg-white text-primdark'}`}>
