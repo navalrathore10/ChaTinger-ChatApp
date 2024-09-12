@@ -20,12 +20,12 @@ const TopChatBar = ({ friend, theme, active, goBack }) => {
                 </button>
                 <div className="image relative cursor-pointer" onClick={toggleImagePopup}>
                     <div className={`absolute right-0 bottom-0 w-[10px] h-[10px] border-[2px] rounded-full 
-                        ${active ? 'bg-green-600' : 'bg-red-500'} ${theme ? 'border-primdark' : 'border-white'}`}></div>
+                        ${!active ? 'bg-green-600' : 'bg-red-500'} ${theme ? 'border-primdark' : 'border-white'}`}></div>
                     <img src={friend.image} alt={friend.name} className="w-10 h-10 rounded-full" />
                 </div>
                 <div className="text">
                     <h2 className="text-md lg:text-lg font-semibold px-5">{friend.name}</h2>
-                    <p className='text-xs px-5 text-gray-500'>{active ? 'Online' : 'Offline'}</p>
+                    <p className='text-xs px-5 text-gray-500'>{!active ? 'Online' : 'Offline'}</p>
                 </div>
             </div>
             <div className="right flex">

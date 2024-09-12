@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { MdDelete } from "react-icons/md";
 
 const ChatContent = ({ friend, messages, theme, deleteMessage }) => {
+    const lastMessageRef = useRef(null);
     // Filter messages to show only those related to the selected friend
     const filteredMessages = messages.filter(
         (msg) => msg.friendId === friend.id && (msg.from === friend.name || msg.from === 'You')
     );
+
+    // Scroll to the last message when messages update
+    useEffect(() => {
+        if (lastMessageRef.current) {
+            lastMessageRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    }, [messages]); // Scrolls whenever messages change
     // console.log(filteredMessages);
 
     return (
@@ -26,8 +34,8 @@ const ChatContent = ({ friend, messages, theme, deleteMessage }) => {
                 )
                 :
                 (
-                    filteredMessages.map((msg) => (
-                        <div key={msg.id} className={`mb-2 w-full flex flex-col relative ${msg.from === 'You' ? 'items-end' : 'items-start'}`}>
+                    filteredMessages.map((msg, index) => (
+                        <div ref={index === filteredMessages.length - 1 ? lastMessageRef : null} key={msg.id} className={`mb-2 w-full flex flex-col relative ${msg.from === 'You' ? 'items-end' : 'items-start'}`}>
                             <p className={`group max-w-[60%] min-w-[70px] p-2 pb-5 shadow-md relative z-10
                                 ${msg.from === 'You' ? ' bg-blue-400 text-white rounded-[15px_15px_0px_15px]' : 'bg-yellow-200 text-white rounded-[15px_15px_15px_0px]'}`}
                                 style={{
@@ -37,7 +45,7 @@ const ChatContent = ({ friend, messages, theme, deleteMessage }) => {
                                 <span className="text-xs absolute bottom-1 right-3">{msg.timestamp}</span>
                                 <button
                                     onClick={() => deleteMessage(msg.id)}
-                                    className={`absolute hidden group-hover:block ${msg.from ==='You'?'left-[-35px]':'right-[-27px]'}  rounded-xl text-xl py-2 p-1  ml-2
+                                    className={`absolute hidden group-hover:block ${msg.from === 'You' ? 'left-[-35px]' : 'right-[-27px]'}  rounded-xl text-xl py-2 p-1  ml-2
                                      text-red-500 top-[10px]
                                      ${theme ? 'bg-dark17' : 'bg-white'}`}
                                 >
