@@ -26,7 +26,7 @@ const ChatContent = ({ friend, messages, theme, deleteMessage }) => {
             `}>
             {filteredMessages.length === 0 ?
                 (
-                    <div className="sayhi text-ma text-5xl w-full h-full flex justify-center items-center">
+                    <div className="sayhi text-joseph text-5xl w-full h-full flex justify-center items-center">
                         <p className={`text-center ${theme ? 'text-white' : 'text-darkop60'} p-5 backdrop-blur-md border border-gray-300 shadow-xl rounded-2xl`}>
                             Say Hi 👋 <br /> to <br />{friend?.name}
                         </p>
