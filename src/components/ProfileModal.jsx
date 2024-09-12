@@ -7,10 +7,9 @@ const ProfileModal = ({ showProfile, handleProfileClick }) => {
 
     const { theme } = useTheme();
     return (
-        <div className={`fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]
+        <div className={`fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[300px]
              lg:absolute lg:top-[50%] lg:left-[50%] lg:translate-x-[48px] h-[300px] shadow-xl rounded-2xl
-             transform transition-transform duration-500
-            ${showProfile ? 'lg:translate-x-0 w-[0px] hidden z-0' : 'flex z-20 w-[300px] lg:translate-x-full'}
+            ${showProfile ? 'hidden z-0' : 'flex z-20 '}
             ${theme ? 'bg-lighte3' : 'bg-dark24'}`}>
             <div className="p-3 flex gap-3 pt-5 items-start">
                 <img src="./profilepic.jpg" alt="Your Name" className="w-[100px] h-[100px] rounded-full mb-4" />
