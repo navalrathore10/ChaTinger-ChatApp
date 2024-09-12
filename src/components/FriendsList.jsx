@@ -1,4 +1,3 @@
-// FriendsList.js
 import { useState, useEffect } from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { FaSearch } from 'react-icons/fa'; // Example icon, adjust as needed

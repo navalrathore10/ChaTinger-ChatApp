@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from 'react';
 import { ThemeProvider } from './context/ThemeContext';
 import './index.css';

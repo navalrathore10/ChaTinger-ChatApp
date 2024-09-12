@@ -1,4 +1,3 @@
-// ChatInput.jsx
 import React, { useState } from 'react';
 import { RiSendPlaneFill } from "react-icons/ri";
 import { BsEmojiHeartEyesFill } from "react-icons/bs";
