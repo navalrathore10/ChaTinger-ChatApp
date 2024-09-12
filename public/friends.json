@@ -5,12 +5,19 @@
       "name": "John Doe",
       "image": "https://randomuser.me/api/portraits/men/75.jpg",
       "pinned": true,
-      "active":true,
+      "active": true,
       "colorTheme": "#FF5733",
       "messages": [
         { "id": 1, "content": "Hey, how's it going Naval?", "timestamp": "09:30 AM", "from": "John Doe" },
         { "id": 2, "content": "I was just thinking about you!", "timestamp": "09:32 AM", "from": "John Doe" },
-        { "id": 3, "content": "Are we still on for the weekend?", "timestamp": "09:35 AM", "from": "John Doe" }
+        { "id": 3, "content": "Are we still on for the weekend?", "timestamp": "09:35 AM", "from": "John Doe" },
+        { "id": 4, "content": "I heard there’s a new cafe opening nearby.", "timestamp": "09:40 AM", "from": "John Doe" },
+        { "id": 5, "content": "We could check it out if you’re free.", "timestamp": "09:42 AM", "from": "John Doe" },
+        { "id": 6, "content": "By the way, did you finish that project?", "timestamp": "09:45 AM", "from": "John Doe" },
+        { "id": 7, "content": "I might need some help with mine.", "timestamp": "09:50 AM", "from": "John Doe" },
+        { "id": 8, "content": "Also, have you seen the latest episode of the show?", "timestamp": "09:55 AM", "from": "John Doe" },
+        { "id": 9, "content": "I can't believe what happened!", "timestamp": "09:57 AM", "from": "John Doe" },
+        { "id": 10, "content": "Let’s catch up soon!", "timestamp": "10:00 AM", "from": "John Doe" }
       ]
     },
     {
@@ -18,12 +25,19 @@
       "name": "Jane Smith",
       "image": "https://randomuser.me/api/portraits/women/4.jpg",
       "pinned": false,
-      "active":false,
+      "active": false,
       "colorTheme": "#33FFBD",
       "messages": [
         { "id": 1, "content": "Hello Naval! What's up?", "timestamp": "11:00 AM", "from": "Jane Smith" },
         { "id": 2, "content": "Are you coming to the meeting?", "timestamp": "11:05 AM", "from": "Jane Smith" },
-        { "id": 3, "content": "Don't forget to bring the report.", "timestamp": "11:10 AM", "from": "Jane Smith" }
+        { "id": 3, "content": "Don't forget to bring the report.", "timestamp": "11:10 AM", "from": "Jane Smith" },
+        { "id": 4, "content": "I also wanted to discuss the new project.", "timestamp": "11:15 AM", "from": "Jane Smith" },
+        { "id": 5, "content": "Have you heard back from the client yet?", "timestamp": "11:20 AM", "from": "Jane Smith" },
+        { "id": 6, "content": "By the way, how’s the team doing?", "timestamp": "11:25 AM", "from": "Jane Smith" },
+        { "id": 7, "content": "Let's plan for a team lunch soon.", "timestamp": "11:30 AM", "from": "Jane Smith" },
+        { "id": 8, "content": "I’ll follow up with the vendor this afternoon.", "timestamp": "11:35 AM", "from": "Jane Smith" },
+        { "id": 9, "content": "We need to finalize the budget as well.", "timestamp": "11:40 AM", "from": "Jane Smith" },
+        { "id": 10, "content": "Let me know if anything changes.", "timestamp": "11:45 AM", "from": "Jane Smith" }
       ]
     },
     {
@@ -31,12 +45,19 @@
       "name": "Michael Johnson",
       "image": "https://randomuser.me/api/portraits/men/43.jpg",
       "pinned": true,
-      "active":true,
+      "active": true,
       "colorTheme": "#339BFF",
       "messages": [
         { "id": 1, "content": "Good morning Naval!", "timestamp": "08:15 AM", "from": "Michael Johnson" },
         { "id": 2, "content": "Want to grab coffee?", "timestamp": "08:20 AM", "from": "Michael Johnson" },
-        { "id": 3, "content": "How's your project going?", "timestamp": "08:25 AM", "from": "Michael Johnson" }
+        { "id": 3, "content": "How's your project going?", "timestamp": "08:25 AM", "from": "Michael Johnson" },
+        { "id": 4, "content": "I’ve been swamped with work lately.", "timestamp": "08:30 AM", "from": "Michael Johnson" },
+        { "id": 5, "content": "Let’s plan a break sometime this week.", "timestamp": "08:35 AM", "from": "Michael Johnson" },
+        { "id": 6, "content": "Do you know any good cafes around?", "timestamp": "08:40 AM", "from": "Michael Johnson" },
+        { "id": 7, "content": "Also, did you finish that book I recommended?", "timestamp": "08:45 AM", "from": "Michael Johnson" },
+        { "id": 8, "content": "It has a really interesting twist at the end!", "timestamp": "08:50 AM", "from": "Michael Johnson" },
+        { "id": 9, "content": "I’m excited to hear your thoughts on it.", "timestamp": "08:55 AM", "from": "Michael Johnson" },
+        { "id": 10, "content": "Let’s catch up later!", "timestamp": "09:00 AM", "from": "Michael Johnson" }
       ]
     },
     {
@@ -49,7 +70,14 @@
       "messages": [
         { "id": 1, "content": "Hey Naval, did you finish the project?", "timestamp": "01:45 PM", "from": "Emily Davis" },
         { "id": 2, "content": "Let me know if you need any help.", "timestamp": "01:47 PM", "from": "Emily Davis" },
-        { "id": 3, "content": "I’m so excited for the weekend!", "timestamp": "01:50 PM", "from": "Emily Davis" }
+        { "id": 3, "content": "I’m so excited for the weekend!", "timestamp": "01:50 PM", "from": "Emily Davis" },
+        { "id": 4, "content": "Are you coming to the event on Saturday?", "timestamp": "01:52 PM", "from": "Emily Davis" },
+        { "id": 5, "content": "It’s going to be a lot of fun.", "timestamp": "01:55 PM", "from": "Emily Davis" },
+        { "id": 6, "content": "We should go together.", "timestamp": "01:57 PM", "from": "Emily Davis" },
+        { "id": 7, "content": "By the way, did you try that new restaurant?", "timestamp": "02:00 PM", "from": "Emily Davis" },
+        { "id": 8, "content": "I heard the food is amazing!", "timestamp": "02:02 PM", "from": "Emily Davis" },
+        { "id": 9, "content": "Let’s make plans to go there soon.", "timestamp": "02:05 PM", "from": "Emily Davis" },
+        { "id": 10, "content": "Catch you later!", "timestamp": "02:10 PM", "from": "Emily Davis" }
       ]
     },
     {
@@ -62,7 +90,14 @@
       "messages": [
         { "id": 1, "content": "What are your weekend plans, Naval?", "timestamp": "04:00 PM", "from": "David Wilson" },
         { "id": 2, "content": "We should catch up!", "timestamp": "04:05 PM", "from": "David Wilson" },
-        { "id": 3, "content": "Let’s play some football!", "timestamp": "04:10 PM", "from": "David Wilson" }
+        { "id": 3, "content": "Let’s play some football!", "timestamp": "04:10 PM", "from": "David Wilson" },
+        { "id": 4, "content": "Do you remember the match we watched last year?", "timestamp": "04:12 PM", "from": "David Wilson" },
+        { "id": 5, "content": "It was epic, right?", "timestamp": "04:15 PM", "from": "David Wilson" },
+        { "id": 6, "content": "Any plans for vacation?", "timestamp": "04:20 PM", "from": "David Wilson" },
+        { "id": 7, "content": "Let’s plan something.", "timestamp": "04:25 PM", "from": "David Wilson" },
+        { "id": 8, "content": "Do you prefer the mountains or beaches?", "timestamp": "04:30 PM", "from": "David Wilson" },
+        { "id": 9, "content": "Also, did you hear about the new movie?", "timestamp": "04:35 PM", "from": "David Wilson" },
+        { "id": 10, "content": "We should totally check it out.", "timestamp": "04:40 PM", "from": "David Wilson" }
       ]
     },
     {
@@ -75,7 +110,14 @@
       "messages": [
         { "id": 1, "content": "Are you free tomorrow, Naval?", "timestamp": "10:00 AM", "from": "Sophia Martinez" },
         { "id": 2, "content": "I have some exciting news!", "timestamp": "10:10 AM", "from": "Sophia Martinez" },
-        { "id": 3, "content": "Let’s catch up over lunch?", "timestamp": "10:15 AM", "from": "Sophia Martinez" }
+        { "id": 3, "content": "Let’s catch up over lunch?", "timestamp": "10:15 AM", "from": "Sophia Martinez" },
+        { "id": 4, "content": "Have you been to that new café?", "timestamp": "10:20 AM", "from": "Sophia Martinez" },
+        { "id": 5, "content": "It's got great reviews.", "timestamp": "10:22 AM", "from": "Sophia Martinez" },
+        { "id": 6, "content": "We should check it out.", "timestamp": "10:25 AM", "from": "Sophia Martinez" },
+        { "id": 7, "content": "Are you still into photography?", "timestamp": "10:30 AM", "from": "Sophia Martinez" },
+        { "id": 8, "content": "I saw your recent work, amazing!", "timestamp": "10:35 AM", "from": "Sophia Martinez" },
+        { "id": 9, "content": "Do you ever sell your photos?", "timestamp": "10:40 AM", "from": "Sophia Martinez" },
+        { "id": 10, "content": "You should consider it.", "timestamp": "10:45 AM", "from": "Sophia Martinez" }
       ]
     },
     {
@@ -88,7 +130,14 @@
       "messages": [
         { "id": 1, "content": "Long time no see Naval!", "timestamp": "03:15 PM", "from": "James Brown" },
         { "id": 2, "content": "Let's meet up soon.", "timestamp": "03:17 PM", "from": "James Brown" },
-        { "id": 3, "content": "How’s life treating you?", "timestamp": "03:20 PM", "from": "James Brown" }
+        { "id": 3, "content": "How’s life treating you?", "timestamp": "03:20 PM", "from": "James Brown" },
+        { "id": 4, "content": "Still working on your project?", "timestamp": "03:25 PM", "from": "James Brown" },
+        { "id": 5, "content": "I’ve been super busy lately.", "timestamp": "03:30 PM", "from": "James Brown" },
+        { "id": 6, "content": "We need to catch up soon.", "timestamp": "03:35 PM", "from": "James Brown" },
+        { "id": 7, "content": "Do you remember our old team?", "timestamp": "03:40 PM", "from": "James Brown" },
+        { "id": 8, "content": "I heard they’re planning a reunion.", "timestamp": "03:45 PM", "from": "James Brown" },
+        { "id": 9, "content": "You in?", "timestamp": "03:50 PM", "from": "James Brown" },
+        { "id": 10, "content": "Let’s catch up before then.", "timestamp": "03:55 PM", "from": "James Brown" }
       ]
     },
     {
@@ -101,7 +150,14 @@
       "messages": [
         { "id": 1, "content": "Did you check out the new movie, Naval?", "timestamp": "07:45 PM", "from": "Olivia Garcia" },
         { "id": 2, "content": "We should go watch it together!", "timestamp": "07:50 PM", "from": "Olivia Garcia" },
-        { "id": 3, "content": "Let me know when you're free.", "timestamp": "07:55 PM", "from": "Olivia Garcia" }
+        { "id": 3, "content": "Let me know when you're free.", "timestamp": "07:55 PM", "from": "Olivia Garcia" },
+        { "id": 4, "content": "Also, are you free this weekend?", "timestamp": "08:00 PM", "from": "Olivia Garcia" },
+        { "id": 5, "content": "Let’s grab dinner.", "timestamp": "08:05 PM", "from": "Olivia Garcia" },
+        { "id": 6, "content": "I have a new restaurant to show you.", "timestamp": "08:10 PM", "from": "Olivia Garcia" },
+        { "id": 7, "content": "They’ve got amazing desserts.", "timestamp": "08:15 PM", "from": "Olivia Garcia" },
+        { "id": 8, "content": "Did you get my message earlier?", "timestamp": "08:20 PM", "from": "Olivia Garcia" },
+        { "id": 9, "content": "Let me know if you’re coming.", "timestamp": "08:25 PM", "from": "Olivia Garcia" },
+        { "id": 10, "content": "Hope to see you soon!", "timestamp": "08:30 PM", "from": "Olivia Garcia" }
       ]
     },
     {
@@ -114,7 +170,14 @@
       "messages": [
         { "id": 1, "content": "Can you send me the report, Naval?", "timestamp": "02:30 PM", "from": "Liam Anderson" },
         { "id": 2, "content": "Thanks a lot!", "timestamp": "02:32 PM", "from": "Liam Anderson" },
-        { "id": 3, "content": "Are you free later to discuss it?", "timestamp": "02:35 PM", "from": "Liam Anderson" }
+        { "id": 3, "content": "Are you free later to discuss it?", "timestamp": "02:35 PM", "from": "Liam Anderson" },
+        { "id": 4, "content": "Also, did you get my email?", "timestamp": "02:40 PM", "from": "Liam Anderson" },
+        { "id": 5, "content": "We need to finalize the details.", "timestamp": "02:45 PM", "from": "Liam Anderson" },
+        { "id": 6, "content": "I think we’re good to go now.", "timestamp": "02:50 PM", "from": "Liam Anderson" },
+        { "id": 7, "content": "Let me know if anything changes.", "timestamp": "02:55 PM", "from": "Liam Anderson" },
+        { "id": 8, "content": "Thanks for all your hard work.", "timestamp": "03:00 PM", "from": "Liam Anderson" },
+        { "id": 9, "content": "We’ll review everything soon.", "timestamp": "03:05 PM", "from": "Liam Anderson" },
+        { "id": 10, "content": "Talk to you later!", "timestamp": "03:10 PM", "from": "Liam Anderson" }
       ]
     },
     {
@@ -125,9 +188,16 @@
       "active":false,
       "colorTheme": "#FF33CC",
       "messages": [
-        { "id": 1, "content": "Are you available for a call Naval?", "timestamp": "05:00 PM", "from": "Ava Thompson" },
-        { "id": 2, "content": "Let's discuss the new proposal.", "timestamp": "05:05 PM", "from": "Ava Thompson" },
-        { "id": 3, "content": "Looking forward to your thoughts!", "timestamp": "05:10 PM", "from": "Ava Thompson" }
+        { "id": 1, "content": "Hey Naval, how’s everything going?", "timestamp": "06:30 PM", "from": "Isabella Rodriguez" },
+        { "id": 2, "content": "We haven’t spoken in a while.", "timestamp": "06:35 PM", "from": "Isabella Rodriguez" },
+        { "id": 3, "content": "Are you still working on that project?", "timestamp": "06:40 PM", "from": "Isabella Rodriguez" },
+        { "id": 4, "content": "I’d love to hear more about it.", "timestamp": "06:45 PM", "from": "Isabella Rodriguez" },
+        { "id": 5, "content": "Let’s catch up soon!", "timestamp": "06:50 PM", "from": "Isabella Rodriguez" },
+        { "id": 6, "content": "Are you free this weekend?", "timestamp": "06:55 PM", "from": "Isabella Rodriguez" },
+        { "id": 7, "content": "We can grab a coffee.", "timestamp": "07:00 PM", "from": "Isabella Rodriguez" },
+        { "id": 8, "content": "Also, I heard you’re learning React?", "timestamp": "07:05 PM", "from": "Isabella Rodriguez" },
+        { "id": 9, "content": "I’ve been working on some projects too.", "timestamp": "07:10 PM", "from": "Isabella Rodriguez" },
+        { "id": 10, "content": "Let’s exchange tips sometime.", "timestamp": "07:15 PM", "from": "Isabella Rodriguez" }
       ]
     }
   ]
