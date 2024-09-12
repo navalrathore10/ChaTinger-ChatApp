@@ -13,7 +13,7 @@ const ProfileModal = ({ showProfile, handleProfileClick }) => {
             ${showProfile ? 'lg:translate-x-0 w-[0px] hidden z-0' : 'flex z-20 w-[300px] lg:translate-x-full'}
             ${theme ? 'bg-lighte3' : 'bg-dark24'}`}>
             <div className="p-3 flex gap-3 pt-5 items-start">
-                <img src="./public/profilepic.jpg" alt="Your Name" className="w-[100px] h-[100px] rounded-full mb-4" />
+                <img src="./profilepic.jpg" alt="Your Name" className="w-[100px] h-[100px] rounded-full mb-4" />
                 <div className="info flex pt-9 flex-col gap-2">
                     <h2 className={`text-2xl font-semibold mb-2 ${theme ? 'text-dark24' : 'text-lighte3'}`}>Naval Rathore</h2>
                     <p className={`text-sm mb-4 ${theme ? 'text-dark24' : 'text-gray-400'}`}>navalrathore10 <br />@gmail.com</p>

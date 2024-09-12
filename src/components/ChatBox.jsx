@@ -72,7 +72,7 @@ const ChatBox = ({ friend, goBack }) => {
     if (!friend) {
         return (
             <div className="w-full p-4 h-full overflow-hidden">
-                <img src="./public/OpenChat.png" alt=""  width={'600px'} height={'600px'} className='mx-auto'/>
+                <img src="./OpenChat.png" alt=""  width={'600px'} height={'600px'} className='mx-auto'/>
             </div>
         );
     }

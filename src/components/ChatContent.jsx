@@ -11,9 +11,9 @@ const ChatContent = ({ friend, messages, theme, deleteMessage }) => {
     return (
         <div className={`h-[80%] max-h-[80%] overflow-y-auto border-black p-5 lg:rounded-2xl shadow-lg 
             ${theme ?
-                'bg-dark24 bg-[url(./public/bg-graphiti-white.png)] bg-center bg-cover shadow-black'
+                'bg-dark24 bg-[url(./bg-graphiti-white.png)] bg-center bg-cover shadow-black'
                 :
-                'bg-white text-primdark bg-[url(./public/bg-graphiti-black.png)] bg-center bg-cover'
+                'bg-white text-primdark bg-[url(./bg-graphiti-black.png)] bg-center bg-cover'
             }
             `}>
             {filteredMessages.length === 0 ?

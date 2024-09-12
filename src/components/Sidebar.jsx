@@ -18,11 +18,11 @@ function Sidebar({ showHome }) {
     return (
         <>
             <div className={`sidebar fixed bottom-0 left-0 w-[100vw] h-[90px] rounded-0
-                 lg:relative lg:max-w-[80px] z-10 p-5 lg:h-full lg:rounded-2xl border
+                 lg:relative lg:max-w-[80px] z-10 p-5 lg:h-full lg:rounded-2xl borde
                  flex lg:flex-col justify-between items-center 
             ${theme ? 'bg-lighte3' : 'bg-dark24'}`}>
                 <div className="logo">
-                    <img src="./public/logo.png" alt="" className='lg:w-[35px] w-[45px] lg:h-[35px] h-[45px]' />
+                    <img src="./logo.png" alt="" className='lg:w-[35px] w-[45px] lg:h-[35px] h-[45px]' />
                 </div>
                 <div className="middlenav">
                     <ul className='flex lg:flex-col gap-3 text-3xl lg:text-xl'>
