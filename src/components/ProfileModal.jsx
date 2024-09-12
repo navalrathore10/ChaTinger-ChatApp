@@ -8,7 +8,7 @@ const ProfileModal = ({ showProfile, handleProfileClick }) => {
     const { theme } = useTheme();
     return (
         <div className={`fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]
-             lg:absolute lg:top-[50%] lg:left-[50%] lg:translate-x-[47px] h-[300px] shadow-xl rounded-2xl
+             lg:absolute lg:top-[50%] lg:left-[50%] lg:translate-x-[48px] h-[300px] shadow-xl rounded-2xl
              transform transition-transform duration-500
             ${showProfile ? 'lg:translate-x-0 w-[0px] hidden z-0' : 'flex z-20 w-[300px] lg:translate-x-full'}
             ${theme ? 'bg-lighte3' : 'bg-dark24'}`}>
